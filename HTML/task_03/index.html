@@ -1,76 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="../html-part.css">
 </head>
-<style>
-  .block::first-letter{
-    font-weight: bold;
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  CommonHTML: {
+    scale: 150
   }
-</style>
+});
+</script>
 <body>
-  <code> <h1>Типы тегов. Значения атрибутов тегов</h1>  </code>
-  <hr>
-  <div class="block">
-    Блочні елементи характеризуються тим, що займають усю доступну ширину, а висота елементів визначається їх вмістом; завжди починаються з нового рядка.
+  <div class="header">
+    <h1>Типы тегов. Значения атрибутов тегов</h1>
+    <marquee behavior="alternate" direction="left">
+      Lorem ipsum dolor sit amet...
+    </marquee>
+    <hr>
+    <h2 class="align-right">Second Level</h2>
+    <h3>Third Level</h2>
+    <h4 class="align-right">Fourth Level</h2>
+    <h5>Fifth Level</h2>
+    <h6 class="align-right">Sixth Level</h2>
   </div>
-  <span>
-    Рядкові елементи – такі елементи веб-сторінки, які є безпосередньою частиною іншого елемента, наприклад, текстового абзацу.
-  </span>
-  <p>
-    <ins>Універсальні елементи</ins> – в залежності від контексту можуть <del>використовуватись як блочні</del> чи вбудовані елементи.
+  <div class="main">
+    <p class="margin-paragraph">
+      <b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit.
+      <strong>Non autem  </strong> beatae similique, dolores perspiciatis at!
+    </p>
+    <p class="default-paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Nihil voluptas aspernatur tempora repellendus obcaecati explicabo consequuntur iste odit id.
+      Ea maxime amet aut libero, voluptas!
+    </p>
+    <p class="italic-paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Nihil voluptas aspernatur tempora repellendus obcaecati explicabo consequuntur iste odit id.
+      Ea maxime amet aut libero, voluptas!
+    </p>
+    <p>
+      Формула этилового спирта:
+      <span class="ethanol-formula">
+        c<span class="sub">2</span>h<span class="sub">5</span>oh
+      </span>
   </p>
-  <ol>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-  </ol>
-  <ul>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-  </ul>
-  <dl>
-    <dt>OL</dt>
-      <dd>Нумерований список</dd>
-    <dt>Ul</dt>
-      <dd>Маркований список</dd>
-    <dt>DL</dt>
-      <dd>Список визначень</dd>
-  </dl>
-  <hr>
-  <table>
-    <thead>
-      <th>№</th>
-      <th>ФИО</th>
-      <th>Дата рождения</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>0</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="math-formula">
+    <math>
+    <mrow>
+      <mi>x</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo>-</mo>
+            <mi>b</mi>
+            <mo>±</mo>
+          </mrow>
+          <msqrt>
+            <mrow>
+              <msup>
+                <mi>b</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>-</mo>
+              <mrow>
+                <mn>4</mn>
+                <mi>a</mi>
+                <mi>c</mi>
+              </mrow>
+            </mrow>
+          </msqrt>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mi>a</mi>
+        </mrow>
+      </mfrac>
+     </mrow>
+    </math>
+    </div>
+  </div>
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
+
 </html>

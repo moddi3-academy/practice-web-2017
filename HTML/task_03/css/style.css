@@ -1,0 +1,39 @@
+.block::first-letter {
+    font-weight: bold;
+}
+
+hr {
+    height: 15px;
+    background-color: #464646;
+}
+
+marquee {
+    background-color: #ffcc00;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.margin-paragraph {
+    margin-left: 50px;
+}
+
+.italic-paragraph {
+    text-align: right;
+    font-style: italic;
+}
+
+.ethanol-formula {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.sub {
+    vertical-align: sub;
+    font-size: 14px;
+}
+
+.math-formula {
+    margin: 0 auto;
+}
