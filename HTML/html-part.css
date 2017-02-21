@@ -1,4 +1,8 @@
-body{
-      background-color: #ebebeb;
-      font-family: Hack;
-    }
+body {
+    background-color: #ebebeb;
+    font-family: Hack;
+}
+
+h1 {
+    font-family: monospace;
+}
