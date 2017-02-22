@@ -1,76 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="../html-part.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-  .block::first-letter{
-    font-weight: bold;
-  }
-</style>
+
 <body>
-  <code> <h1>Типы тегов. Значения атрибутов тегов</h1>  </code>
-  <hr>
-  <div class="block">
-    Блочні елементи характеризуються тим, що займають усю доступну ширину, а висота елементів визначається їх вмістом; завжди починаються з нового рядка.
+  <header>
+    <h1>Header</h1>
+    <nav>
+      <ul>
+        <li><a href="../task_01/index.html">Task 01</a></li>
+        <li><a href="../task_02/index.html">Task 02</a></li>
+        <li><a href="../task_03/index.html">Task 03</a></li>
+        <li><a href="../task_04/index.html">Task 04</a></li>
+        <li><a href="../task_05/index.html">Task 05</a></li>
+        <li><a href="../task_06/index.html">Task 06</a></li>
+        <li><a href="../task_07/index.html">Task 07</a></li>
+        <li><a href="../task_08/index.html">Task 08</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id='main'>
+    <article>
+      <table>
+        <caption>Table caption</caption>
+        <thead>
+          <tr>
+            <td rowspan=2>Browser</td>
+            <td colspan=2>IE</td>
+            <td colspan=3>Opera</td>
+            <td colspan=23>Firefox</td>
+          </tr>
+          <tr>
+            <td class="ie">6.0</td>
+            <td class="ie">7.0</td>
+            <td class="opera">7.0</td>
+            <td class="opera">8.0</td>
+            <td class="opera">9.0</td>
+            <td class="firefox">1.0</td>
+            <td class="firefox">2.0</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Supported</td>
+            <td class="no">No</td>
+            <td class="yes">Yes</td>
+            <td class="no">No</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi repellat placeat debitis ad! Harum tempora quibusdam laborum dolores incidunt eveniet explicabo similique? Officiis, consectetur ipsa placeat dolores. Quis aperiam quae sed provident veniam facilis, saepe obcaecati dolorum modi praesentium illum quas. Velit hic eum ab accusamus aperiam voluptatibus possimus corporis fugiat sint quidem fuga maxime quia, odit amet sed, dolorum modi dolor nihil doloribus ut laudantium recusandae ullam. Labore ad, non laudantium facere magni natus maiores sunt aspernatur commodi, neque ducimus veritatis, ipsum, sint dolorum a odio! Dolorum repellendus sunt consequatur recusandae, sint dignissimos magnam enim odit sed ab, atque natus pariatur eligendi autem error quam hic quia quidem qui doloremque culpa sit. Quis recusandae animi molestiae ut natus reiciendis necessitatibus vitae sit quos quia, commodi dolorum eveniet incidunt nihil officia facilis saepe sequi accusantium distinctio suscipit aut sunt. Dolore error labore soluta quos animi, quasi! Similique animi blanditiis earum et, fuga reprehenderit consectetur officia ullam necessitatibus sint sit voluptas iure ad assumenda quasi obcaecati itaque mollitia officiis debitis rerum, deleniti modi corporis. Vero voluptate, enim deleniti cum eveniet temporibus tenetur id, dignissimos dolorum vel saepe officia, veritatis at voluptatibus adipisci sit similique nostrum. Tenetur ea aliquid ullam optio ut.
+      </p>
+    </article>
+    <aside>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, error. Esse tempore enim quo eveniet officiis, nemo provident natus nulla. Dolorum eius, officia dolores quia autem, saepe voluptates suscipit, odio quibusdam minus eaque at? Voluptatem dolor similique dolorem repellat, placeat esse debitis velit, iste porro perspiciatis odit aliquid aspernatur aliquam obcaecati odio quam minus expedita molestiae qui labore. Commodi excepturi suscipit molestias similique natus eum in ad architecto, autem. Ab quod eveniet consequuntur commodi fugit quos mollitia ad nemo consequatur quis ex, sequi inventore, illo iure cupiditate, vitae nam ratione laborum magnam. Nisi laudantium harum praesentium veritatis illum, dignissimos recusandae?
+    </aside>
   </div>
-  <span>
-    Рядкові елементи – такі елементи веб-сторінки, які є безпосередньою частиною іншого елемента, наприклад, текстового абзацу.
-  </span>
-  <p>
-    <ins>Універсальні елементи</ins> – в залежності від контексту можуть <del>використовуватись як блочні</del> чи вбудовані елементи.
-  </p>
-  <ol>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-  </ol>
-  <ul>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-    <li>Використовуються для видозміни тексту та його логічного виділення.</li>
-  </ul>
-  <dl>
-    <dt>OL</dt>
-      <dd>Нумерований список</dd>
-    <dt>Ul</dt>
-      <dd>Маркований список</dd>
-    <dt>DL</dt>
-      <dd>Список визначень</dd>
-  </dl>
-  <hr>
-  <table>
-    <thead>
-      <th>№</th>
-      <th>ФИО</th>
-      <th>Дата рождения</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>0</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Иванов</td>
-        <td>19,05,1978</td>
-      </tr>
-    </tbody>
-  </table>
+  <footer>
+    Copyright&copy
+  </footer>
 </body>
+
 </html>
