@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="../html-part.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <frameset rows="80, *" cols="50%, 50%">
-    <iframe src="frames/frame1.html" frameborder="0" name="Frame 1"></iframe>
-    <iframe src="frames/frame2.html" frameborder="0" name="Frame 2"></iframe>
-    <iframe src="frames/frame3.html" frameborder="0" name="Frame 3"></iframe>
-    <iframe src="frames/frame4.html" frameborder="0" name="Frame 4"></iframe>
-    <iframe src="frames/frame5.html" frameborder="0" name="Frame 5"></iframe>
-    <iframe src="frames/frame6.html" frameborder="0" name="Frame 6"></iframe>
-</frameset>
+  <div class="flex-container">
+    <div class="col1">
+      <div class="flex-item"><iframe src="frames/frame1.html" frameborder="0" name="Frame 1"></iframe></div>
+      <div class="flex-item"><iframe src="frames/frame2.html" frameborder="0" name="Frame 2"></iframe></div>
+      <div class="flex-item"><iframe src="frames/frame3.html" frameborder="0" name="Frame 3"></iframe></div>
+    </div>
+    <div class="col2">
+      <div class="flex-item"><iframe src="frames/frame4.html" frameborder="0" name="Frame 4"></iframe></div>
+      <div class="flex-item"><iframe src="frames/frame5.html" frameborder="0" name="Frame 5"></iframe></div>
+      <div class="flex-item"><iframe src="frames/frame6.html" frameborder="0" name="Frame 6"></iframe></div>
+    </div>
+  </div>
 </body>
 </html>

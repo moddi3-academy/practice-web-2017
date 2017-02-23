@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+}
+
+.flex-container{
+  min-height: 600px;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+}
+
+.col1 {
+  flex: 1 1 50%;
+  background: cyan;
+}
+.col2 {
+  flex: 1 1 50%;
+  order: 1;
+  background: moccasin;
+}
+
+iframe {
+  border: none;
+}
