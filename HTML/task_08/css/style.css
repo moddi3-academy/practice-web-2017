@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* { box-sizing: border-box; }
+body {
+  background: #3b3b3b;
+  font-family: 'PT Sans', sans-serif;
+  color: #eee;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+form { min-width: 450px; }
+
+div { position: relative; }
+
+::-webkit-input-placeholder {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#spam, #letters {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+input {
+  border: 0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 20px;
+  background: #eee;
+  transition: background .5s;
+}
+
+textarea {
+  margin-top: 25px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="date"] {
+  font-family: 'PT Sans', sans-serif;
+  color: #8f8f8f;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+textarea:focus  {
+  background: #fff;
+  outline: 0;
+}
+
+#reset {
+  display: flex;
+}
+
+input[type="reset"], input[type="submit"] {
+  font-size: 1.2em;
+  flex: 1 1 50%;
+  padding: 20px;
+  color: #fff;
+  background: #673AB7;
+  transition: background .5s;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+  background: #553196;
+}
