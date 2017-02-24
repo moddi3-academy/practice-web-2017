@@ -1,0 +1,17 @@
+ul li {
+  list-style: none;
+  background: #d0d0d0;
+  padding: 5px 0 5px 15px;
+}
+
+.lvl1 li {
+  float:left;
+}
+
+.lvl2 li {
+  float: none;
+  margin: 0 15px 0 -40px;
+  text-decoration: underline;
+  border: 1px solid #eee;
+  padding: 15px;
+}
