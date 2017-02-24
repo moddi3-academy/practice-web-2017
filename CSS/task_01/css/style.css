@@ -1,0 +1,15 @@
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  font-style: italic;
+}
+
+@media print {
+  body {
+    font-family: Times, 'Times New Roman ', serif;
+    color: black;
+  }
+
+}
