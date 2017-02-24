@@ -1,0 +1,48 @@
+body {
+  font: +2;
+}
+
+table {
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  color: #eee;
+  background: #2e3134;
+}
+
+tr:nth-child(even) {
+  background: #ececec
+  color: #252525;
+}
+
+tr:nth-child(odd) {
+  background: #7e7e7e;
+  color: #eee;
+}
+
+td:first-child {
+  width: 250px;
+}
+
+th, td {
+  padding: 20px 0;
+}
+
+td:not(:first-child) {
+  width: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-flex;
+}
+
+ul li:nth-child(1n+0) {
+  counter-increment: size;
+  font-size: calc(counter(size) - 30%);
+}
