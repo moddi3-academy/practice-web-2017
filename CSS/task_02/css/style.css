@@ -42,7 +42,8 @@ ul li {
   display: inline-flex;
 }
 
-ul li:nth-child(1n+0) {
-  counter-increment: size;
-  font-size: calc(counter(size) - 30%);
-}
+li:nth-child(1) { font-size: 25px; }
+li:nth-child(2) { font-size: 21px; }
+li:nth-child(3) { font-size: 17px; }
+li:nth-child(4) { font-size: 13px; }
+li:nth-child(5) { font-size: 9px; }
