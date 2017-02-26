@@ -1,0 +1,116 @@
+/* Header */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  margin: 15px auto;
+}
+
+header {
+  line-height: 50px;
+  border: 1px solid #dedede;
+  position: relative;
+  height: 50px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+header>div {
+  position: absolute;
+}
+
+.col1 {
+  left: 15px;
+}
+
+.col2 {
+  width: 30%;
+  right: 0px;
+}
+
+.list {
+  left: 150px;
+}
+
+.col2>span {
+  position: absolute;
+  right: 15px;
+}
+
+.separator {
+  display: inline-block;
+  width: 0px;
+  height: 12px;
+  border-right: 1px solid #dedede;
+  padding: 0;
+}
+
+header a, header a:link, header a:visited  {
+  text-decoration: none;
+  color: #06e ;
+}
+
+header a:hover {
+  color: #002a61 ;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 15px;
+}
+/* Main task */
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: maroon;
+}
+
+a:hover {
+  color: #ffc000;
+}
+
+a:active {
+  color: #daf121;
+}
+
+tr {
+  transition: all .5s;
+}
+
+tr:hover {
+  background: #2e2e2e;
+  color: #eeeeee;
+}
+
+input:focus, textarea:focus {
+  color: #4324ad
+}
+
+p::first-letter {
+  font-size: 150%
+}
+
+p:first-line {
+  font-style: italic;
+}
+
+p:nth-child(odd)::after {
+  color: #f00;
+  content: ' - new !';
+}
+
+div.before-test li {
+  list-style-type: none;
+}
+
+div.before-test li::before {
+  content: '\21aa';
+}
